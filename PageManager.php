@@ -7,6 +7,9 @@ class Page {
     private $enableFooter = true; //Active le header (default : true)
     private $requireConnect = true; //Nessesite d'etre connecté (default: true)
     private $array = array();
+
+    private $view_dir_name = VIEW_DIR;
+    private $controler_dir_name = CONTROLER_DIR;
     private $log;
 
     /**
@@ -110,7 +113,7 @@ class Page {
 
     private function GetPageData($link) {
         /** Path ou sont stocké les vues */
-        $file_path = __DIR__ . '/../../Vue/' . $link;
+        $file_path = __DIR__ . '/../../'.$this->view_dir_name.'/' . $link;
 
         /** Path ou sont stocké les vues en cache */
         $file_path_cached = __DIR__ . '/Cache/' . md5($link) . '.tmp';

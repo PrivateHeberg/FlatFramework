@@ -19,7 +19,10 @@
       "MysqlManager.php",
       "PageManager.php",
       "RouteManager.php",
-      "TemplateEngine.php"
+      "TemplateEngine.php",
+      "DEBUG/DebugMySQL.php",
+      "DEBUG/DebugBuilder.php",
+      "DEBUG/DebugTool.php"
     ]
   }
 }
