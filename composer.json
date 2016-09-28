@@ -10,6 +10,6 @@
     }
   ],
   "autoload": {
-    "files": ["flat/TemplateEngine/TemplateEngine.php"]
+    "files": ["TemplateEngine.php","Loader.php"]
   }
 }
