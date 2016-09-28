@@ -9,7 +9,7 @@
       "homepage": "https://privateheberg.com"
     }
   ],
-  "require": {
+  "require-dev": {
     "vrana/notorm": "dev-master",
     "altorouter/altorouter": "1.1.0"
   },
