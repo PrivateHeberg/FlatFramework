@@ -8,7 +8,9 @@
  */
 class RouteManager extends Altorouter
 {
-
+    public function __construct( $routes = array(), $basePath = '', $matchTypes = array() ) {
+        parent::__construct($routes, $basePath, $matchTypes);
+    }
     public function result() {
         // match current request url
         $match = $this->match();
