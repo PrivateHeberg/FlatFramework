@@ -1,0 +1,15 @@
+{
+  "name": "privateheberg/flatframework",
+  "description": "Flat is a basic framework for beginer on php OOP developer",
+  "keywords": ["framework", "libs"],
+  "license": ["Apache-2.0", "GPL-2.0+"],
+  "authors": [
+    {
+      "name": "Moreau Marc",
+      "homepage": "https://privateheberg.com"
+    }
+  ],
+  "autoload": {
+    "files": ["flat/TemplateEngine/TemplateEngine.php"]
+  }
+}
