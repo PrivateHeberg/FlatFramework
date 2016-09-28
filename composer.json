@@ -9,15 +9,17 @@
       "homepage": "https://privateheberg.com"
     }
   ],
+  "require": {
+    "vrana/notorm": "dev-master",
+    "altorouter/altorouter": "1.1.0"
+  },
   "autoload": {
     "files": ["ConnectManager.php",
       "EmailManager.php",
       "ErrorManager.php",
       "MemoryManager.php",
       "MinifyEngine.php",
-      "MysqlManager.php",
       "PageManager.php",
-      "RouteManager.php",
       "TemplateEngine.php",
       "DEBUG/DebugMySQL.php",
       "DEBUG/DebugBuilder.php",
