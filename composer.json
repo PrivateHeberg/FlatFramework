@@ -10,6 +10,16 @@
     }
   ],
   "autoload": {
-    "files": ["TemplateEngine.php","Loader.php"]
+    "files": ["ConnectManager.php",
+      "DebugLoader.php",
+      "EmailManager.php",
+      "ErrorManager.php",
+      "MemoryManager.php",
+      "MinifyEngine.php",
+      "MysqlManager.php",
+      "PageManager.php",
+      "RouteManager.php",
+      "TemplateEngine.php"
+    ]
   }
 }
