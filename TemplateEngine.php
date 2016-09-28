@@ -16,6 +16,9 @@ class TemplateEngine
         if (count($this->Model) >= 1) {
             foreach ($this->Model as $key => $data) {
                 if (!is_array($data)) {
+                    $this->Render = str_replace("{{ $key }}.lower", $data, strtoupper($this->Render));
+                    $this->Render = str_replace("{{ $key }}.upper", $data, strtolower($this->Render));
+                    $this->Render = str_replace("{{ $key }}.fl_upper", $data, ucfirst($this->Render));
                     $this->Render = str_replace("{{ $key }}", $data, $this->Render);
                 }
             }
