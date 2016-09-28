@@ -9,10 +9,6 @@
       "homepage": "https://privateheberg.com"
     }
   ],
-  "require-dev": {
-    "vrana/notorm": "dev-master",
-    "altorouter/altorouter": "1.1.0"
-  },
   "autoload": {
     "files": ["ConnectManager.php",
       "EmailManager.php",
