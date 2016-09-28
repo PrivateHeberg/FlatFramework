@@ -12,6 +12,7 @@
   "autoload": {
     "files": ["ConnectManager.php",
       "EmailManager.php",
+      "RouteManager.php",
       "ErrorManager.php",
       "MemoryManager.php",
       "MinifyEngine.php",
