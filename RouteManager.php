@@ -6,7 +6,7 @@
  * Date: 28/09/2016
  * Time: 04:44
  */
-class RouteManager extends Altorouter
+class RouteManager extends AltoRouter
 {
     public function __construct( $routes = array(), $basePath = '', $matchTypes = array() ) {
         parent::__construct($routes, $basePath, $matchTypes);
